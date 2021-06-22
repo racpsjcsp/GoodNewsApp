@@ -17,6 +17,7 @@
 		4601B44326823E7800DCB220 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4601B44226823E7800DCB220 /* Article.swift */; };
 		4601B448268244A300DCB220 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4601B447268244A300DCB220 /* ArticleViewModel.swift */; };
 		4601B44C2682471100DCB220 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4601B44B2682471100DCB220 /* ArticleTableViewCell.swift */; };
+		4601B4502682563A00DCB220 /* CountrySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4601B44F2682563A00DCB220 /* CountrySelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4601B44226823E7800DCB220 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		4601B447268244A300DCB220 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		4601B44B2682471100DCB220 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		4601B44F2682563A00DCB220 /* CountrySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				4601B4352682340900DCB220 /* GoodNewsListTableViewController.swift */,
+				4601B44F2682563A00DCB220 /* CountrySelectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4601B4502682563A00DCB220 /* CountrySelectionViewController.swift in Sources */,
 				4601B41E268232E400DCB220 /* AppDelegate.swift in Sources */,
 				4601B420268232E400DCB220 /* SceneDelegate.swift in Sources */,
 				4601B43F26823C3700DCB220 /* WebService.swift in Sources */,

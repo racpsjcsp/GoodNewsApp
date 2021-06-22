@@ -21,7 +21,6 @@ class WebService {
                 if let articleList = articleList {
                     completionHandler(articleList.articles)
                 }
-                print(articleList?.articles)
             }
         }.resume()
     }

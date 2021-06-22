@@ -14,11 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        
         UINavigationBar.appearance().backgroundColor = UIColor(red: 113/255, green: 255/255, blue: 113/255, alpha: 1.0)
         UINavigationBar.appearance().barTintColor = UIColor(red: 113/255, green: 255/255, blue: 113/255, alpha: 1.0)
         UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
-         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black]
 
         return true
     }

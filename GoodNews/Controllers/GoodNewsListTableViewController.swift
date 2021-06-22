@@ -8,8 +8,9 @@
 import Foundation
 import UIKit
 
-class GoodNewsListTableVewController: UITableViewController {
+class GoodNewsListTableViewController: UITableViewController {
 
+    var country = ""
     private var articleListViewModel: ArticleListViewModel!
 
     override func viewDidLoad() {
@@ -20,8 +21,8 @@ class GoodNewsListTableVewController: UITableViewController {
     private func setup() {
         self.navigationController?.navigationBar.prefersLargeTitles = true
 
-        let url = URL(string: "https://newsapi.org/v2/top-headlines?country=br&apiKey=b4019faf61bc4699b2eb060207007e2f")!
-
+        let url = URL(string: "https://newsapi.org/v2/top-headlines?country=\(country)&apiKey=b4019faf61bc4699b2eb060207007e2f")!
+        print(url)
         WebService().getArticles(url: url) { articles in
             if let articles = articles {
                 self.articleListViewModel = ArticleListViewModel(articles: articles)
